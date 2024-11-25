@@ -22,6 +22,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: burlywood;
 }
 
 * {
@@ -39,4 +40,45 @@ a {
   html {
     color-scheme: dark;
   }
+}
+.container {
+  width: 600px;
+  margin: 50px auto;
+}
+.frame {
+  height: 192px;
+  width: 350px;
+  background-image: url(Background.png);
+  background-repeat: no-repeat;
+  margin: 50px auto;
+  background-position-x: right;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.name {
+  padding-left: 10px;
+  padding-top: 20px;
+  display: flex;
+  gap: 5px;
+}
+.footer {
+  margin-top: 80px;
+  padding-left: 10px;
+}
+.footer > p {
+  font-size: 12px;
+}
+.company {
+  width: 40px;
+  height: 60px;
+  margin-left: 265px;
+  margin-top: -100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.company > h3 {
+  color: white;
 }
